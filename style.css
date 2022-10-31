@@ -1,0 +1,40 @@
+/*
+#0d1b2a - darkest blue
+#1b263b - dark blue
+#D8DEE6 - light blue
+*/
+
+.navbar, footer {
+    background-color: #0d1b2a!important;
+    color: #D8DEE6;
+}
+
+body {
+    background-color: #1b263b!important;
+}
+
+p, li, a{
+    color: #D8DEE6;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #D8DEE6;
+    font-weight:700;
+    text-align: center;
+
+}
+
+.card-body{
+    background-color: #0d1b2a;
+}
+
+.card-title{
+    color: #D8DEE6;
+}
+
+.card-text{
+    color: #D8DEE6;
+}
