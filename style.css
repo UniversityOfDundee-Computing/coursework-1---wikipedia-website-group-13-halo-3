@@ -43,9 +43,9 @@ h1, h2, h3, h4, h5, h6{
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
+    margin-top: 3px;
     font-size: 30px;
-    width: 50px;
+    width: 10px;
     text-align: center;
     text-decoration: none;
   }
@@ -57,14 +57,19 @@ h1, h2, h3, h4, h5, h6{
   
   /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
+  /* Logo Colour */
+  .fa-facebook, .fa-twitter {
     color: white;
   }
-  
+
   /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  .t-circle {
+    color:#55ACEE ;
+    width: 10px;
+  }
+
+   /* Facebook */
+  .f-circle {
+    color:#3B5998 ;
+    width: 10px;
   }
