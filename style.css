@@ -6,7 +6,7 @@
 */
 
 /*add colours to navabr and footer*/
-.navbar, footer {
+.navbar, footer, .alert {
     background-color: #0d1b2a!important;
     color: #D8DEE6;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 /*add text color and style*/
-p, li, a{
+p, li, a, text{
     color: #D8DEE6;
     font-family: 'Raleway', sans-serif;
 
