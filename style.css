@@ -1,12 +1,54 @@
+/*
+#0d1b2a - darkest blue
+#1b263b - dark blue
+#D8DEE6 - light blue
+*/
+
+/*add colours to navabr and footer*/
+.navbar, footer {
+    background-color: #0d1b2a!important;
+    color: #D8DEE6;
+}
+
+/*add background color*/
+body {
+    background-color: #1b263b!important;
+}
+
+/*add text color and style*/
+p, li, a{
+    color: #D8DEE6;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/*Style headings*/
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #D8DEE6;
+    font-weight:700;
+    text-align: center;
+
+}
+
+/*Add card background color*/
+.card-body{
+    background-color: #0d1b2a;
+}
+
+/*Add text colour to cards*/
+.card-title, .card-text{
+    color: #D8DEE6;
+}
+
 /* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
+    margin-top: 3px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
   
   /* Add a hover effect if you want */
   .fa:hover {
@@ -15,14 +57,19 @@
   
   /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
+  /* Logo Colour */
+  .fa-facebook, .fa-twitter {
     color: white;
   }
-  
+
   /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  .t-circle {
+    color:#55ACEE ;
+    width: 10px;
+  }
+
+   /* Facebook */
+  .f-circle {
+    color:#3B5998 ;
+    width: 10px;
   }
