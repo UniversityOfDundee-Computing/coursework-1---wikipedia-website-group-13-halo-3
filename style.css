@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-/* Style all font awesome icons */
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-=======
+
 /*
 #0d1b2a - darkest blue
 #1b263b - dark blue
@@ -16,7 +6,7 @@
 */
 
 /*add colours to navabr and footer*/
-.navbar, footer {
+.navbar, footer, .alert {
     background-color: #0d1b2a!important;
     color: #D8DEE6;
 }
@@ -27,7 +17,7 @@ body {
 }
 
 /*add text color and style*/
-p, li, a{
+p, li, a, text{
     color: #D8DEE6;
     font-family: 'Raleway', sans-serif;
 
@@ -60,7 +50,6 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     text-decoration: none;
   }
->>>>>>> 83dd3046fc7b61367a464c9df1dcf30fb5de0541
   
   /* Add a hover effect if you want */
   .fa:hover {
@@ -75,12 +64,6 @@ h1, h2, h3, h4, h5, h6{
   }
 
   /* Twitter */
-<<<<<<< HEAD
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-=======
   .t-circle {
     color:#55ACEE ;
     width: 10px;
@@ -91,4 +74,3 @@ h1, h2, h3, h4, h5, h6{
     color:#3B5998 ;
     width: 10px;
   }
->>>>>>> 83dd3046fc7b61367a464c9df1dcf30fb5de0541
