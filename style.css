@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+=======
 /*
 #0d1b2a - darkest blue
 #1b263b - dark blue
@@ -43,13 +54,14 @@ h1, h2, h3, h4, h5, h6{
 
 /* Style all font awesome icons */
 .fa {
-  padding: 5px;
-  font-size: 20px;
-  width: 20px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 35%;
-}
+    margin-top: 3px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+>>>>>>> 83dd3046fc7b61367a464c9df1dcf30fb5de0541
+  
   /* Add a hover effect if you want */
   .fa:hover {
     opacity: 0.7;
@@ -57,14 +69,26 @@ h1, h2, h3, h4, h5, h6{
   
   /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
+  /* Logo Colour */
+  .fa-facebook, .fa-twitter {
     color: white;
   }
-  
+
   /* Twitter */
+<<<<<<< HEAD
   .fa-twitter {
     background: #55ACEE;
     color: white;
   }
+=======
+  .t-circle {
+    color:#55ACEE ;
+    width: 10px;
+  }
+
+   /* Facebook */
+  .f-circle {
+    color:#3B5998 ;
+    width: 10px;
+  }
+>>>>>>> 83dd3046fc7b61367a464c9df1dcf30fb5de0541
